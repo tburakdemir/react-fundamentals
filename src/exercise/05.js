@@ -12,6 +12,7 @@ import '../box-styles.css'
 
 // 🐨 add a style prop to each of them as well so their background color
 // matches what the text says it should be as well as `fontStyle: 'italic'`
+/*
 const smallBox = (
   <div
     className="box--small box"
@@ -35,7 +36,9 @@ const largeBox = (
   >
     large orange box
   </div>
+  
 )
+*/
 
 function Box({size = 'small', style, children, ...props}) {
   return (
